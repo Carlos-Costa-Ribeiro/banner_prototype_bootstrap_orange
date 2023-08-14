@@ -7,3 +7,13 @@
 html {
     font-size: 62.5%;
 }
+
+.navbar-brand img {
+    height: 5rem;
+}
+
+.navbar-toggler {
+    height: 5rem;
+}
+
+
