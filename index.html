@@ -16,46 +16,48 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
-    <header class="container-fluid fixed-top">
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
+    <header class="container-fluid fixed-top p-0 ">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container px-5">
                 <a class="navbar-brand" href="#">
-                    <img src="./assets/img/hdcagency_logo.svg" alt="">
+                    <i class="bi bi-cpu"></i>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                <button class="navbar-toggler p-3" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                <div class="menuOffcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h3>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1">
-                            <li class="nav-item">
+                            <li class="nav-item mx-3">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">About us</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Produts</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Table</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Features</a>
                             </li>
                     </div>
                 </div>
@@ -67,38 +69,35 @@
         <div class="container-fluid p-0">
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="btnCarou active"
                         aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="btnCarou"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="btnCarou"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/banner1.png" class="d-block w-100 img-fluid"
-                            style="height: 100vh; object-fit: cover;" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                        <img src="./assets/img/banner1.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="">First slide label</h1>
+                            <h2>Some placeholder content for the first slide.</h2>
                             <a href="" class="mainBtn">Go there</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/banner2.png" class="d-block w-100 img-fluid"
-                            style="height: 100vh; object-fit: cover;" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                        <img src="./assets/img/carefree-happy-relieved-african-american-handsome-hipster-guy-listening-music-headphones-dancing-shaking-hands-into-rhythm-close-eyes-singing-along-earphones-orange-background.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption">
+                            <h1>Second slide label</h1>
+                            <h2>Some placeholder content for the second slide.</h2>
                             <a href="" class="mainBtn">Go there</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/banner3.png" class="d-block w-100 img-fluid"
-                            style="height: 100vh; object-fit: cover;" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                        <img src="./assets/img/portrait-cheerful-woman-chooses-song-listen-from-her-playlist-enjoys-good-sound-headphones-concentrated-smartphone-display-dressed-casually-isolated-orange-wall.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption">
+                            <h1>Third slide label</h1>
+                            <h2>Some placeholder content for the third slide.</h2>
                             <a href="" class="mainBtn">Go there</a>
                         </div>
                     </div>
@@ -117,17 +116,16 @@
         </div>
     </main>
 
-    <section class="container-fluid p-0 d-flex align-items-center justify-content-center bg-success"
-        style="height: 100vh;">
+    <section class="secDefault container-fluid p-0 d-flex align-items-center justify-content-center">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, numquam.</h2>
+                    <h2 class="secTitle">Lorem ipsum dolor</h2>
                 </div>
                 <div class="col-12 col-md-6 p-3">
                     <img src="./assets/img/agencia.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="secDesc col-12 col-md-6">
                     <h3>Lorem ipsum dolor sit amet.</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aliquid!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aliquid!</p>
